@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+article, header, h1, footer.p{
+    width: 100%;
+    margin: 15px;
+}
+header{
+    height: 200px;
+    background-color: aquamarine;
+    
+}

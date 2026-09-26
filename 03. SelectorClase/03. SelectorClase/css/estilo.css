@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    
+    background: radial-gradient(#4f87bd, #0062be);
+    min-height: 100vh; /* Se extiende el valor a lo alto*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    flex-direction: column;
+}
+
+.main header{
+    min-width: 100%;
+    padding: 20px;
+    position: absolute;
+    top:  0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{  
+    height: 50px;
+}
+.man header .logo{
+    max-width: 90px;
+}
+.man header .navegacion{
+    nav
+
+}
+.main header .navegacion li a{
+    text-decoration: none;/*quitar*/
+    color: aliceblue
+    position: relative 
+    margin: rigth 40px;
+}
+
+.main header .navegacion li:hover a{
+    color: crimson
+}
